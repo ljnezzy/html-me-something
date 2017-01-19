@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	background-color: #DFDCDC;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-right: 50px;
+	font-size: 16px;
+	
+}
+#container-fluid{
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #BAE2F8;
+	margin-top: -22px;
+}
+.hand{
+	font-size: 30px;
+}
+header{
+	text-transform: capitalize;
+	font-size: medium;
+	text-align: center;
+}
+nav {
+	width: 16.6667%;
+	background-color: #C6C1FF;
+	padding-bottom: 10px;
+	float: left;
+	padding-top: 10px;
+	margin-top: -200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #0A00FF;
+	border-style: solid;
+	border-color: #D7D1FF;
+}
+a{
+	text-decoration:none;
+}
+nav a{
+	text-decoration: none;
+	color: #0100A1;
+	font-weight: 500;
+}
+figcaption{
+	font-style: italic;
+	font-size: 15px;
+}
+.right{
+	float: left;
+	margin-right: 10px;
+	width: 54%;
+	clear: right;
+}
+.left{
+	width: 33%;
+	margin-top: 10px;
+	padding-left: 10px;
+	float: left;
+	clear: left;
+}
+a:hover {
+	outline-width: 0;
+	font-weight: bold;
+	color: #0015FF;
+}
+hr{
+	width: 100%;
+	clear: both;
+	border-style: none;
+}
+.intro{
+	text-align:center;
+}	
+li{
+	text-decoration: none;
+	list-style-type: none;
+}
+article{
+	display: inline-block;
+}
+main {
+	display: inline-block;
+	max-width: 100%;
+	}
+footer{
+	margin-left: 10px;
+	padding-bottom: 20px;
+}
